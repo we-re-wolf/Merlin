@@ -1,0 +1,10 @@
+socket
+termcolor
+subprocess
+json
+os
+pyautogui
+shutil
+time
+sys
+requests
