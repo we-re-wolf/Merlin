@@ -100,7 +100,7 @@ targets = []
 ips = []
 stop_flag = False
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.bind(('192.168.0.185', 54321))
+sock.bind(('<your ip>', <your port>))
 sock.listen(5)
 t1 = threading.Thread(target=accept_connections)
 t1.start()
