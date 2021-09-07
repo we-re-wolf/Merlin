@@ -85,7 +85,7 @@ def connection():
     global target
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-    server.bind(('<your ip>', <your ip>))
+    server.bind(('<your ip>', <your port>))
     server.listen(5)
     print(colored('|\/| Listening For Incoming Connection ', 'green'))
     target, ip = server.accept()
